@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card component TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-300">
+    <div class="w-full h-screen flex justify-center items-center">
+        <!-- Card -->
+        <div class="overflow-hidden bg-white w-64 shadow rounded hover:shadow-lg transition duration-200">
+            <div class="overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1536331307320-5316320e97cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU0fHxwZXJzb258ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60" alt="image unsplash" class="h-48 w-full object-cover object-center hover:scale-[1.1] transition-all">
+            </div>
+            <div class="w-full flex flex-col">
+                <h3 class="text-lg font-bold text-gray-700 w-full text-center mt-1 cursor-default">My Name</h3>
+                <p class="text-justify text-sm p-3 pt-1 cursor-default">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim vitae eligendi explicabo nam officia facere quae qui error vel rem esse in amet, possimus commodi.</p>
+                <button class="bg-blue-500 hover:bg-blue-600 px-3 py-1 m-2 rounded text-white">Look</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
